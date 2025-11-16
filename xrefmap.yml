@@ -1,0 +1,469 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: BooseASEzm
+  name: BooseASEzm
+  href: api/BooseASEzm.html
+  commentId: N:BooseASEzm
+  fullName: BooseASEzm
+  nameWithType: BooseASEzm
+- uid: BooseASEzm.AppCanvas
+  name: AppCanvas
+  href: api/BooseASEzm.AppCanvas.html
+  commentId: T:BooseASEzm.AppCanvas
+  fullName: BooseASEzm.AppCanvas
+  nameWithType: AppCanvas
+- uid: BooseASEzm.AppCanvas.#ctor(System.Int32,System.Int32)
+  name: AppCanvas(int, int)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas__ctor_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppCanvas.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: BooseASEzm.AppCanvas.AppCanvas(int, int)
+  fullName.vb: BooseASEzm.AppCanvas.New(Integer, Integer)
+  nameWithType: AppCanvas.AppCanvas(int, int)
+  nameWithType.vb: AppCanvas.New(Integer, Integer)
+- uid: BooseASEzm.AppCanvas.#ctor*
+  name: AppCanvas
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas__ctor_
+  commentId: Overload:BooseASEzm.AppCanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BooseASEzm.AppCanvas.AppCanvas
+  fullName.vb: BooseASEzm.AppCanvas.New
+  nameWithType: AppCanvas.AppCanvas
+  nameWithType.vb: AppCanvas.New
+- uid: BooseASEzm.AppCanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:BooseASEzm.AppCanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BooseASEzm.AppCanvas.Circle(int, bool)
+  fullName.vb: BooseASEzm.AppCanvas.Circle(Integer, Boolean)
+  nameWithType: AppCanvas.Circle(int, bool)
+  nameWithType.vb: AppCanvas.Circle(Integer, Boolean)
+- uid: BooseASEzm.AppCanvas.Circle*
+  name: Circle
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Circle_
+  commentId: Overload:BooseASEzm.AppCanvas.Circle
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Circle
+  nameWithType: AppCanvas.Circle
+- uid: BooseASEzm.AppCanvas.Clear
+  name: Clear()
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Clear
+  commentId: M:BooseASEzm.AppCanvas.Clear
+  fullName: BooseASEzm.AppCanvas.Clear()
+  nameWithType: AppCanvas.Clear()
+- uid: BooseASEzm.AppCanvas.Clear*
+  name: Clear
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Clear_
+  commentId: Overload:BooseASEzm.AppCanvas.Clear
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Clear
+  nameWithType: AppCanvas.Clear
+- uid: BooseASEzm.AppCanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppCanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BooseASEzm.AppCanvas.DrawTo(int, int)
+  fullName.vb: BooseASEzm.AppCanvas.DrawTo(Integer, Integer)
+  nameWithType: AppCanvas.DrawTo(int, int)
+  nameWithType.vb: AppCanvas.DrawTo(Integer, Integer)
+- uid: BooseASEzm.AppCanvas.DrawTo*
+  name: DrawTo
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_DrawTo_
+  commentId: Overload:BooseASEzm.AppCanvas.DrawTo
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.DrawTo
+  nameWithType: AppCanvas.DrawTo
+- uid: BooseASEzm.AppCanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppCanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BooseASEzm.AppCanvas.MoveTo(int, int)
+  fullName.vb: BooseASEzm.AppCanvas.MoveTo(Integer, Integer)
+  nameWithType: AppCanvas.MoveTo(int, int)
+  nameWithType.vb: AppCanvas.MoveTo(Integer, Integer)
+- uid: BooseASEzm.AppCanvas.MoveTo*
+  name: MoveTo
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_MoveTo_
+  commentId: Overload:BooseASEzm.AppCanvas.MoveTo
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.MoveTo
+  nameWithType: AppCanvas.MoveTo
+- uid: BooseASEzm.AppCanvas.PenColour
+  name: PenColour
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_PenColour
+  commentId: P:BooseASEzm.AppCanvas.PenColour
+  fullName: BooseASEzm.AppCanvas.PenColour
+  nameWithType: AppCanvas.PenColour
+- uid: BooseASEzm.AppCanvas.PenColour*
+  name: PenColour
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_PenColour_
+  commentId: Overload:BooseASEzm.AppCanvas.PenColour
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.PenColour
+  nameWithType: AppCanvas.PenColour
+- uid: BooseASEzm.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BooseASEzm.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BooseASEzm.AppCanvas.Rect(int, int, bool)
+  fullName.vb: BooseASEzm.AppCanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: AppCanvas.Rect(int, int, bool)
+  nameWithType.vb: AppCanvas.Rect(Integer, Integer, Boolean)
+- uid: BooseASEzm.AppCanvas.Rect*
+  name: Rect
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Rect_
+  commentId: Overload:BooseASEzm.AppCanvas.Rect
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Rect
+  nameWithType: AppCanvas.Rect
+- uid: BooseASEzm.AppCanvas.Reset
+  name: Reset()
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Reset
+  commentId: M:BooseASEzm.AppCanvas.Reset
+  fullName: BooseASEzm.AppCanvas.Reset()
+  nameWithType: AppCanvas.Reset()
+- uid: BooseASEzm.AppCanvas.Reset*
+  name: Reset
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Reset_
+  commentId: Overload:BooseASEzm.AppCanvas.Reset
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Reset
+  nameWithType: AppCanvas.Reset
+- uid: BooseASEzm.AppCanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Set_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppCanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BooseASEzm.AppCanvas.Set(int, int)
+  fullName.vb: BooseASEzm.AppCanvas.Set(Integer, Integer)
+  nameWithType: AppCanvas.Set(int, int)
+  nameWithType.vb: AppCanvas.Set(Integer, Integer)
+- uid: BooseASEzm.AppCanvas.Set*
+  name: Set
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Set_
+  commentId: Overload:BooseASEzm.AppCanvas.Set
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Set
+  nameWithType: AppCanvas.Set
+- uid: BooseASEzm.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BooseASEzm.AppCanvas.SetColour(int, int, int)
+  fullName.vb: BooseASEzm.AppCanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: AppCanvas.SetColour(int, int, int)
+  nameWithType.vb: AppCanvas.SetColour(Integer, Integer, Integer)
+- uid: BooseASEzm.AppCanvas.SetColour*
+  name: SetColour
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_SetColour_
+  commentId: Overload:BooseASEzm.AppCanvas.SetColour
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.SetColour
+  nameWithType: AppCanvas.SetColour
+- uid: BooseASEzm.AppCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BooseASEzm.AppCanvas.Tri(int, int)
+  fullName.vb: BooseASEzm.AppCanvas.Tri(Integer, Integer)
+  nameWithType: AppCanvas.Tri(int, int)
+  nameWithType.vb: AppCanvas.Tri(Integer, Integer)
+- uid: BooseASEzm.AppCanvas.Tri*
+  name: Tri
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Tri_
+  commentId: Overload:BooseASEzm.AppCanvas.Tri
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Tri
+  nameWithType: AppCanvas.Tri
+- uid: BooseASEzm.AppCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_WriteText_System_String_
+  commentId: M:BooseASEzm.AppCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BooseASEzm.AppCanvas.WriteText(string)
+  fullName.vb: BooseASEzm.AppCanvas.WriteText(String)
+  nameWithType: AppCanvas.WriteText(string)
+  nameWithType.vb: AppCanvas.WriteText(String)
+- uid: BooseASEzm.AppCanvas.WriteText*
+  name: WriteText
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_WriteText_
+  commentId: Overload:BooseASEzm.AppCanvas.WriteText
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.WriteText
+  nameWithType: AppCanvas.WriteText
+- uid: BooseASEzm.AppCanvas.Xpos
+  name: Xpos
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Xpos
+  commentId: P:BooseASEzm.AppCanvas.Xpos
+  fullName: BooseASEzm.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: BooseASEzm.AppCanvas.Xpos*
+  name: Xpos
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Xpos_
+  commentId: Overload:BooseASEzm.AppCanvas.Xpos
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: BooseASEzm.AppCanvas.Ypos
+  name: Ypos
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Ypos
+  commentId: P:BooseASEzm.AppCanvas.Ypos
+  fullName: BooseASEzm.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
+- uid: BooseASEzm.AppCanvas.Ypos*
+  name: Ypos
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_Ypos_
+  commentId: Overload:BooseASEzm.AppCanvas.Ypos
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
+- uid: BooseASEzm.AppCanvas.getBitmap
+  name: getBitmap()
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_getBitmap
+  commentId: M:BooseASEzm.AppCanvas.getBitmap
+  fullName: BooseASEzm.AppCanvas.getBitmap()
+  nameWithType: AppCanvas.getBitmap()
+- uid: BooseASEzm.AppCanvas.getBitmap*
+  name: getBitmap
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_getBitmap_
+  commentId: Overload:BooseASEzm.AppCanvas.getBitmap
+  isSpec: "True"
+  fullName: BooseASEzm.AppCanvas.getBitmap
+  nameWithType: AppCanvas.getBitmap
+- uid: BooseASEzm.AppCanvas.xPos
+  name: xPos
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_xPos
+  commentId: F:BooseASEzm.AppCanvas.xPos
+  fullName: BooseASEzm.AppCanvas.xPos
+  nameWithType: AppCanvas.xPos
+- uid: BooseASEzm.AppCanvas.yPos
+  name: yPos
+  href: api/BooseASEzm.AppCanvas.html#BooseASEzm_AppCanvas_yPos
+  commentId: F:BooseASEzm.AppCanvas.yPos
+  fullName: BooseASEzm.AppCanvas.yPos
+  nameWithType: AppCanvas.yPos
+- uid: BooseASEzm.AppCircle
+  name: AppCircle
+  href: api/BooseASEzm.AppCircle.html
+  commentId: T:BooseASEzm.AppCircle
+  fullName: BooseASEzm.AppCircle
+  nameWithType: AppCircle
+- uid: BooseASEzm.AppCircle.#ctor
+  name: AppCircle()
+  href: api/BooseASEzm.AppCircle.html#BooseASEzm_AppCircle__ctor
+  commentId: M:BooseASEzm.AppCircle.#ctor
+  name.vb: New()
+  fullName: BooseASEzm.AppCircle.AppCircle()
+  fullName.vb: BooseASEzm.AppCircle.New()
+  nameWithType: AppCircle.AppCircle()
+  nameWithType.vb: AppCircle.New()
+- uid: BooseASEzm.AppCircle.#ctor(BOOSE.Canvas,System.Int32)
+  name: AppCircle(Canvas, int)
+  href: api/BooseASEzm.AppCircle.html#BooseASEzm_AppCircle__ctor_BOOSE_Canvas_System_Int32_
+  commentId: M:BooseASEzm.AppCircle.#ctor(BOOSE.Canvas,System.Int32)
+  name.vb: New(Canvas, Integer)
+  fullName: BooseASEzm.AppCircle.AppCircle(BOOSE.Canvas, int)
+  fullName.vb: BooseASEzm.AppCircle.New(BOOSE.Canvas, Integer)
+  nameWithType: AppCircle.AppCircle(Canvas, int)
+  nameWithType.vb: AppCircle.New(Canvas, Integer)
+- uid: BooseASEzm.AppCircle.#ctor*
+  name: AppCircle
+  href: api/BooseASEzm.AppCircle.html#BooseASEzm_AppCircle__ctor_
+  commentId: Overload:BooseASEzm.AppCircle.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BooseASEzm.AppCircle.AppCircle
+  fullName.vb: BooseASEzm.AppCircle.New
+  nameWithType: AppCircle.AppCircle
+  nameWithType.vb: AppCircle.New
+- uid: BooseASEzm.AppCircle.Execute
+  name: Execute()
+  href: api/BooseASEzm.AppCircle.html#BooseASEzm_AppCircle_Execute
+  commentId: M:BooseASEzm.AppCircle.Execute
+  fullName: BooseASEzm.AppCircle.Execute()
+  nameWithType: AppCircle.Execute()
+- uid: BooseASEzm.AppCircle.Execute*
+  name: Execute
+  href: api/BooseASEzm.AppCircle.html#BooseASEzm_AppCircle_Execute_
+  commentId: Overload:BooseASEzm.AppCircle.Execute
+  isSpec: "True"
+  fullName: BooseASEzm.AppCircle.Execute
+  nameWithType: AppCircle.Execute
+- uid: BooseASEzm.AppCommandFactory
+  name: AppCommandFactory
+  href: api/BooseASEzm.AppCommandFactory.html
+  commentId: T:BooseASEzm.AppCommandFactory
+  fullName: BooseASEzm.AppCommandFactory
+  nameWithType: AppCommandFactory
+- uid: BooseASEzm.AppCommandFactory.MakeCommand(System.String)
+  name: MakeCommand(string)
+  href: api/BooseASEzm.AppCommandFactory.html#BooseASEzm_AppCommandFactory_MakeCommand_System_String_
+  commentId: M:BooseASEzm.AppCommandFactory.MakeCommand(System.String)
+  name.vb: MakeCommand(String)
+  fullName: BooseASEzm.AppCommandFactory.MakeCommand(string)
+  fullName.vb: BooseASEzm.AppCommandFactory.MakeCommand(String)
+  nameWithType: AppCommandFactory.MakeCommand(string)
+  nameWithType.vb: AppCommandFactory.MakeCommand(String)
+- uid: BooseASEzm.AppCommandFactory.MakeCommand*
+  name: MakeCommand
+  href: api/BooseASEzm.AppCommandFactory.html#BooseASEzm_AppCommandFactory_MakeCommand_
+  commentId: Overload:BooseASEzm.AppCommandFactory.MakeCommand
+  isSpec: "True"
+  fullName: BooseASEzm.AppCommandFactory.MakeCommand
+  nameWithType: AppCommandFactory.MakeCommand
+- uid: BooseASEzm.AppMoveTo
+  name: AppMoveTo
+  href: api/BooseASEzm.AppMoveTo.html
+  commentId: T:BooseASEzm.AppMoveTo
+  fullName: BooseASEzm.AppMoveTo
+  nameWithType: AppMoveTo
+- uid: BooseASEzm.AppMoveTo.#ctor
+  name: AppMoveTo()
+  href: api/BooseASEzm.AppMoveTo.html#BooseASEzm_AppMoveTo__ctor
+  commentId: M:BooseASEzm.AppMoveTo.#ctor
+  name.vb: New()
+  fullName: BooseASEzm.AppMoveTo.AppMoveTo()
+  fullName.vb: BooseASEzm.AppMoveTo.New()
+  nameWithType: AppMoveTo.AppMoveTo()
+  nameWithType.vb: AppMoveTo.New()
+- uid: BooseASEzm.AppMoveTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name: AppMoveTo(Canvas, int, int)
+  href: api/BooseASEzm.AppMoveTo.html#BooseASEzm_AppMoveTo__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppMoveTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name.vb: New(Canvas, Integer, Integer)
+  fullName: BooseASEzm.AppMoveTo.AppMoveTo(BOOSE.Canvas, int, int)
+  fullName.vb: BooseASEzm.AppMoveTo.New(BOOSE.Canvas, Integer, Integer)
+  nameWithType: AppMoveTo.AppMoveTo(Canvas, int, int)
+  nameWithType.vb: AppMoveTo.New(Canvas, Integer, Integer)
+- uid: BooseASEzm.AppMoveTo.#ctor*
+  name: AppMoveTo
+  href: api/BooseASEzm.AppMoveTo.html#BooseASEzm_AppMoveTo__ctor_
+  commentId: Overload:BooseASEzm.AppMoveTo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BooseASEzm.AppMoveTo.AppMoveTo
+  fullName.vb: BooseASEzm.AppMoveTo.New
+  nameWithType: AppMoveTo.AppMoveTo
+  nameWithType.vb: AppMoveTo.New
+- uid: BooseASEzm.AppMoveTo.Execute
+  name: Execute()
+  href: api/BooseASEzm.AppMoveTo.html#BooseASEzm_AppMoveTo_Execute
+  commentId: M:BooseASEzm.AppMoveTo.Execute
+  fullName: BooseASEzm.AppMoveTo.Execute()
+  nameWithType: AppMoveTo.Execute()
+- uid: BooseASEzm.AppMoveTo.Execute*
+  name: Execute
+  href: api/BooseASEzm.AppMoveTo.html#BooseASEzm_AppMoveTo_Execute_
+  commentId: Overload:BooseASEzm.AppMoveTo.Execute
+  isSpec: "True"
+  fullName: BooseASEzm.AppMoveTo.Execute
+  nameWithType: AppMoveTo.Execute
+- uid: BooseASEzm.AppRect
+  name: AppRect
+  href: api/BooseASEzm.AppRect.html
+  commentId: T:BooseASEzm.AppRect
+  fullName: BooseASEzm.AppRect
+  nameWithType: AppRect
+- uid: BooseASEzm.AppRect.#ctor
+  name: AppRect()
+  href: api/BooseASEzm.AppRect.html#BooseASEzm_AppRect__ctor
+  commentId: M:BooseASEzm.AppRect.#ctor
+  name.vb: New()
+  fullName: BooseASEzm.AppRect.AppRect()
+  fullName.vb: BooseASEzm.AppRect.New()
+  nameWithType: AppRect.AppRect()
+  nameWithType.vb: AppRect.New()
+- uid: BooseASEzm.AppRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name: AppRect(Canvas, int, int)
+  href: api/BooseASEzm.AppRect.html#BooseASEzm_AppRect__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  commentId: M:BooseASEzm.AppRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
+  name.vb: New(Canvas, Integer, Integer)
+  fullName: BooseASEzm.AppRect.AppRect(BOOSE.Canvas, int, int)
+  fullName.vb: BooseASEzm.AppRect.New(BOOSE.Canvas, Integer, Integer)
+  nameWithType: AppRect.AppRect(Canvas, int, int)
+  nameWithType.vb: AppRect.New(Canvas, Integer, Integer)
+- uid: BooseASEzm.AppRect.#ctor*
+  name: AppRect
+  href: api/BooseASEzm.AppRect.html#BooseASEzm_AppRect__ctor_
+  commentId: Overload:BooseASEzm.AppRect.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BooseASEzm.AppRect.AppRect
+  fullName.vb: BooseASEzm.AppRect.New
+  nameWithType: AppRect.AppRect
+  nameWithType.vb: AppRect.New
+- uid: BooseASEzm.AppRect.Execute
+  name: Execute()
+  href: api/BooseASEzm.AppRect.html#BooseASEzm_AppRect_Execute
+  commentId: M:BooseASEzm.AppRect.Execute
+  fullName: BooseASEzm.AppRect.Execute()
+  nameWithType: AppRect.Execute()
+- uid: BooseASEzm.AppRect.Execute*
+  name: Execute
+  href: api/BooseASEzm.AppRect.html#BooseASEzm_AppRect_Execute_
+  commentId: Overload:BooseASEzm.AppRect.Execute
+  isSpec: "True"
+  fullName: BooseASEzm.AppRect.Execute
+  nameWithType: AppRect.Execute
+- uid: BooseASEzm.Form1
+  name: Form1
+  href: api/BooseASEzm.Form1.html
+  commentId: T:BooseASEzm.Form1
+  fullName: BooseASEzm.Form1
+  nameWithType: Form1
+- uid: BooseASEzm.Form1.#ctor
+  name: Form1()
+  href: api/BooseASEzm.Form1.html#BooseASEzm_Form1__ctor
+  commentId: M:BooseASEzm.Form1.#ctor
+  name.vb: New()
+  fullName: BooseASEzm.Form1.Form1()
+  fullName.vb: BooseASEzm.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: BooseASEzm.Form1.#ctor*
+  name: Form1
+  href: api/BooseASEzm.Form1.html#BooseASEzm_Form1__ctor_
+  commentId: Overload:BooseASEzm.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BooseASEzm.Form1.Form1
+  fullName.vb: BooseASEzm.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: BooseASEzm.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/BooseASEzm.Form1.html#BooseASEzm_Form1_Dispose_System_Boolean_
+  commentId: M:BooseASEzm.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: BooseASEzm.Form1.Dispose(bool)
+  fullName.vb: BooseASEzm.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: BooseASEzm.Form1.Dispose*
+  name: Dispose
+  href: api/BooseASEzm.Form1.html#BooseASEzm_Form1_Dispose_
+  commentId: Overload:BooseASEzm.Form1.Dispose
+  isSpec: "True"
+  fullName: BooseASEzm.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: BooseASEzm.Form1.InitializeComponent
+  name: InitializeComponent()
+  href: api/BooseASEzm.Form1.html#BooseASEzm_Form1_InitializeComponent
+  commentId: M:BooseASEzm.Form1.InitializeComponent
+  fullName: BooseASEzm.Form1.InitializeComponent()
+  nameWithType: Form1.InitializeComponent()
+- uid: BooseASEzm.Form1.InitializeComponent*
+  name: InitializeComponent
+  href: api/BooseASEzm.Form1.html#BooseASEzm_Form1_InitializeComponent_
+  commentId: Overload:BooseASEzm.Form1.InitializeComponent
+  isSpec: "True"
+  fullName: BooseASEzm.Form1.InitializeComponent
+  nameWithType: Form1.InitializeComponent

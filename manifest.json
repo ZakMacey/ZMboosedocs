@@ -1,0 +1,186 @@
+{
+  "source_base_path": "C:/Users/ZakMa/source/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppCanvas.yml\" sourcestartlinenumber=\"1\">Represents a canvas that supports basic drawing operations such as\ncircles, rectangles, lines, and text with customizable colors.\nImplements the <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppCircle",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppCircle.yml\" sourcestartlinenumber=\"1\">The app circle class is responsible for calling the unrestricted version of the circle method\nit inherits from the commandoneparameter class the radius of the circle is provided as a parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">The <xref href=\"BooseASEzm.AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref> class is responsible for creating specific command objects\nbased on the provided command type.\nInherits from the <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppMoveTo.yml\" sourcestartlinenumber=\"1\">The AppMoveTo class is responsible for moving the position of the pen on the canvas.\nIt inherits from the CommandTwoParameters class where the x and y values are supplied as parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppRect",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppRect.yml\" sourcestartlinenumber=\"1\">The appRect class is responsible for calling the unrestricted version of the rect command\nit inherits the command two parameters class the height and width are provided as parameters</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Form1",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Form1.yml\" sourcestartlinenumber=\"1\">The main form of the application. It initializes the canvas, command factory, stored program,\nand parser, and provides functionality for interacting with the canvas via user input.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
