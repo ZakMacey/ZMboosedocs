@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AppIntTests | BooseDocsZM </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AppIntTests | BooseDocsZM ">
+      
+      <meta name="description" content="Unit tests for the AppInt class. Tests integer variable assignment, arithmetic expressions, and error handling.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/new/main/apiSpec/new?filename=BooseASEzm_Tests_AppIntTests.md&amp;value=---%0Auid%3A%20BooseASEzm.Tests.AppIntTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BooseDocsZM">
+            BooseDocsZM
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="BooseASEzm.Tests.AppIntTests">
+
+
+
+  <h1 id="BooseASEzm_Tests_AppIntTests" data-uid="BooseASEzm.Tests.AppIntTests" class="text-break">
+Class AppIntTests  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="BooseASEzm.html">BooseASEzm</a>.<a class="xref" href="BooseASEzm.Tests.html">Tests</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>BooseTestProject1.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Unit tests for the AppInt class.
+Tests integer variable assignment, arithmetic expressions, and error handling.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestClass]
+public class AppIntTests</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AppIntTests</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_Assignment_UpdatesExistingVariable_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_Assignment_UpdatesExistingVariable*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_Assignment_UpdatesExistingVariable" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_Assignment_UpdatesExistingVariable">
+  AppInt_Assignment_UpdatesExistingVariable()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that assigning a new value to an existing integer variable updates the value correctly.
+Verifies that a variable initially set to 10 can be updated to 25.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void AppInt_Assignment_UpdatesExistingVariable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_ComplexExpression_WithMultipleOperators_CalculatesCorrectly_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_ComplexExpression_WithMultipleOperators_CalculatesCorrectly*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_ComplexExpression_WithMultipleOperators_CalculatesCorrectly" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_ComplexExpression_WithMultipleOperators_CalculatesCorrectly">
+  AppInt_ComplexExpression_WithMultipleOperators_CalculatesCorrectly()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that a complex expression with multiple operators respects operator precedence.
+Verifies that 10 + 5 * 2 equals 20 (multiplication before addition).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void AppInt_ComplexExpression_WithMultipleOperators_CalculatesCorrectly()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_ExpressionWithUndefinedVariable_ThrowsException_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_ExpressionWithUndefinedVariable_ThrowsException*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_ExpressionWithUndefinedVariable_ThrowsException" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_ExpressionWithUndefinedVariable_ThrowsException">
+  AppInt_ExpressionWithUndefinedVariable_ThrowsException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that using an undefined variable in an expression throws a StoredProgramException.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+[ExpectedException(typeof(StoredProgramException))]
+public void AppInt_ExpressionWithUndefinedVariable_ThrowsException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_InvalidValue_ThrowsStoredProgramException_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_InvalidValue_ThrowsStoredProgramException*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_InvalidValue_ThrowsStoredProgramException" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_InvalidValue_ThrowsStoredProgramException">
+  AppInt_InvalidValue_ThrowsStoredProgramException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that attempting to assign an invalid (non-numeric) value throws a StoredProgramException.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+[ExpectedException(typeof(StoredProgramException))]
+public void AppInt_InvalidValue_ThrowsStoredProgramException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Addition_CalculatesCorrectly_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Addition_CalculatesCorrectly*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Addition_CalculatesCorrectly" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Addition_CalculatesCorrectly">
+  AppInt_SimpleExpression_Addition_CalculatesCorrectly()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that a simple addition expression calculates the correct result.
+Verifies that 10 + 20 equals 30.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void AppInt_SimpleExpression_Addition_CalculatesCorrectly()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Division_CalculatesCorrectly_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Division_CalculatesCorrectly*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Division_CalculatesCorrectly" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Division_CalculatesCorrectly">
+  AppInt_SimpleExpression_Division_CalculatesCorrectly()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that a simple division expression calculates the correct result.
+Verifies that 100 / 2 equals 50.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void AppInt_SimpleExpression_Division_CalculatesCorrectly()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Multiplication_CalculatesCorrectly_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Multiplication_CalculatesCorrectly*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Multiplication_CalculatesCorrectly" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Multiplication_CalculatesCorrectly">
+  AppInt_SimpleExpression_Multiplication_CalculatesCorrectly()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that a simple multiplication expression calculates the correct result.
+Verifies that 2 * 5 equals 10.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void AppInt_SimpleExpression_Multiplication_CalculatesCorrectly()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Subtraction_CalculatesCorrectly_" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Subtraction_CalculatesCorrectly*"></a>
+
+  <h3 id="BooseASEzm_Tests_AppIntTests_AppInt_SimpleExpression_Subtraction_CalculatesCorrectly" data-uid="BooseASEzm.Tests.AppIntTests.AppInt_SimpleExpression_Subtraction_CalculatesCorrectly">
+  AppInt_SimpleExpression_Subtraction_CalculatesCorrectly()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that a simple subtraction expression calculates the correct result.
+Verifies that 50 - 30 equals 20.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void AppInt_SimpleExpression_Subtraction_CalculatesCorrectly()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-ZakMacey/blob/main/BooseTestProject1/AppIntTests.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

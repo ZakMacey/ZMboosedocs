@@ -1,0 +1,588 @@
+{
+  "source_base_path": "C:/Users/ZakMa/source/repos/ase-boose-assignment-ZakMacey12/01",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppArray",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppArray.yml\" sourcestartlinenumber=\"1\">Represents an array variable that stores multiple values of the same type (int or real).\nSupports indexed access for storing and retrieving values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppCall.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppCall",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppCall.yml\" sourcestartlinenumber=\"1\">Command to invoke a previously defined method with arguments.\nEvaluates arguments (literals or variables) and passes them to the method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppCanvas.yml\" sourcestartlinenumber=\"1\">Represents a canvas that supports basic drawing operations such as\ncircles, rectangles, lines, and text with customizable colors.\nImplements the <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppCircle",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppCircle.yml\" sourcestartlinenumber=\"1\">The app circle class is responsible for calling the unrestricted version of the circle method\nit inherits from the commandoneparameter class the radius of the circle is provided as a parameter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">The <xref href=\"BooseASEzm.AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref> class is responsible for creating specific command objects\nbased on the provided command type.\nInherits from the <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppFor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppFor",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppFor.yml\" sourcestartlinenumber=\"1\">For loop command that iterates a counter variable from a start value to an end value with a specified step.\nAutomatically manages the counter variable and supports both ascending and descending loops.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppIf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppIf",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppInt",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppInt.yml\" sourcestartlinenumber=\"1\">Integer variable command that supports variable declarations, assignments, and expression evaluation.\nHandles both simple value assignments and complex arithmetic expressions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppMethod",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppMethod.yml\" sourcestartlinenumber=\"1\">Method definition command that allows creating reusable code blocks with parameters and return values.\nMethods store their return value in a variable with the same name as the method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppMoveTo.yml\" sourcestartlinenumber=\"1\">The AppMoveTo class is responsible for moving the position of the pen on the canvas.\nIt inherits from the CommandTwoParameters class where the x and y values are supplied as parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppParser",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppParser.yml\" sourcestartlinenumber=\"1\">Custom parser that extends BOOSE.Parser to support control structures and methods.\nParses programs with if/else statements, while loops, for loops, and method definitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppPeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppPeek",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppPeek.yml\" sourcestartlinenumber=\"1\">Peek command to get an array element and store it in a variable.\nUsage: peek x = nums 5\npeek y = prices 3</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppPoke.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppPoke",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppPoke.yml\" sourcestartlinenumber=\"1\">Command to set a value at a specific index in an array.\nSupports both integer and real arrays.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppReal",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppReal.yml\" sourcestartlinenumber=\"1\">Unrestricted real (double/decimal) variable command.\nHandles variable declarations like: real x = 10.5</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppRect",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppRect.yml\" sourcestartlinenumber=\"1\">The appRect class is responsible for calling the unrestricted version of the rect command\nit inherits the command two parameters class the height and width are provided as parameters</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppStoredProgram",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppStoredProgram.yml\" sourcestartlinenumber=\"1\">Custom StoredProgram that bypasses BOOSE restrictions.\nInherits from BOOSE.StoredProgram but allows unrestricted commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppWhile",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppWhile.yml\" sourcestartlinenumber=\"1\">While loop command.\nUsage: while condition\ncommands...\nend while</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.AppWrite",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.AppWrite.yml\" sourcestartlinenumber=\"1\">Unrestricted write command that displays text, variables, and expressions on the canvas.\nInherits from CommandOneParameter to handle the parameter parsing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Form1",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Form1.yml\" sourcestartlinenumber=\"1\">The main form of the application. It initializes the canvas, command factory, stored program,\nand parser, and provides functionality for interacting with the canvas via user input.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.MethodParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.MethodParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.MethodParameter",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.MethodParameter.yml\" sourcestartlinenumber=\"1\">Represents a parameter in a method definition with a type and name.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppArrayTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppArrayTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppArrayTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppArray class.\nTests array creation, element access, and error handling for both integer and real arrays.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppForTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppForTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppForTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppFor class.\nTests for loop functionality including ascending, descending, and stepped iterations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppIfTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppIfTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppIfTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppIfTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppIf class.\nTests conditional logic including if-then-else statements, comparison operators, and nested conditions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppIntTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppIntTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppIntTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppIntTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppInt class.\nTests integer variable assignment, arithmetic expressions, and error handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppMethodTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppMethodTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppMethodTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppMethodTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppMethod class.\nTests method definition, compilation, parameter handling, and method execution with return values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppPeekTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppPeekTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppPeekTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppPeekTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppPeek class.\nTests retrieving values from arrays and assigning them to variables,\nincluding error handling for undefined variables and arrays.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppPokeTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppPokeTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppPokeTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppPokeTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppPoke class.\nTests setting values in arrays at specific indices,\nincluding error handling for undefined arrays and invalid indices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppRealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppRealTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppRealTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppRealTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppReal class.\nTests real number variable declaration, assignment, arithmetic expressions with precision,\nand error handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.AppWhileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.AppWhileTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests.AppWhileTests",
+      "Summary": "<p sourcefile=\"api/BooseASEzm.Tests.AppWhileTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the AppWhile class.\nTests while loop functionality including condition evaluation, loop execution, and termination.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseASEzm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseASEzm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseASEzm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseTestProject1.DrawToTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseTestProject1.DrawToTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTestProject1.DrawToTests",
+      "Summary": "<p sourcefile=\"api/BooseTestProject1.DrawToTests.yml\" sourcestartlinenumber=\"1\">Contains unit tests for the DrawTo method of the AppCanvas class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseTestProject1.MoveToTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseTestProject1.MoveToTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTestProject1.MoveToTests",
+      "Summary": "<p sourcefile=\"api/BooseTestProject1.MoveToTests.yml\" sourcestartlinenumber=\"1\">Contains unit tests for the MoveTo method of the AppCanvas class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseTestProject1.MultiLineProgramTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseTestProject1.MultiLineProgramTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTestProject1.MultiLineProgramTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseTestProject1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseTestProject1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTestProject1",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
